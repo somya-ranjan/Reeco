@@ -21,7 +21,7 @@ function Home() {
 
   // // redux state
   const { productOrderData } = useSelector((state) => state.productOrder);
-
+  console.log(productOrderData);
   // // local state
   const [searchValue, setSearchValue] = useState("");
 

@@ -26,7 +26,7 @@ const productOrderSlice = createSlice({
       if (payload.search) {
         state.productOrderData = res;
       } else {
-        state.productOrderData = JSON.parse(localStorage.getItem("orderList"));
+        state.productOrderData = orderData;
       }
     },
     updateOrderStatus: (state, { payload }) => {
