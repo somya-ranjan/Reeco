@@ -6,7 +6,7 @@ import { useReactToPrint } from "react-to-print";
 // // static import
 import DashboardTopBar from "../../components/dashboardTopBar/DashboardTopBar";
 import TableTopbar from "../../components/tableTopBar/TableTopbar";
-import DynamicTable from "../../components/dynamicTable/dynamicTable";
+import DynamicTable from "../../components/dynamicTable/DynamicTable";
 import tableHead from "../../assets/data/tableData/tableHead.json";
 import Actions from "../../components/actions/Actions";
 import Badges from "../../components/badges/Badges";
