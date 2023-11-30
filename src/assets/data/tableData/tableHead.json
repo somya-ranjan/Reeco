@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "productName",
+    "label": "Product name"
+  },
+  {
+    "_id": "brandName",
+    "label": "Brand"
+  },
+
+  {
+    "_id": "price",
+    "label": "Price"
+  },
+  {
+    "_id": "quantity",
+    "label": "Quantity"
+  },
+  {
+    "_id": "total",
+    "label": "Total"
+  },
+  {
+    "_id": "status",
+    "label": "Status"
+  },
+  {
+    "_id": "actions",
+    "label": "Action"
+  }
+]

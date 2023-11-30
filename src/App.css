@@ -1,0 +1,23 @@
+.outline_btn {
+  border-radius: 20px !important;
+  border-color: var(--navbar-bg) !important;
+  color: var(--navbar-bg) !important;
+  text-transform: none !important;
+}
+.contained_btn {
+  border-radius: 20px !important;
+  border-color: var(--navbar-bg) !important;
+  background-color: var(--navbar-bg) !important;
+  text-transform: none !important;
+}
+
+.muted {
+  opacity: 0.75;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
