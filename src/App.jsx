@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 
 // // static import
 import MainLayouts from "./layouts/MainLayouts";
-import orderData from "./assets/data/tableData/tableBody.json";
 import Loader from "./components/loading/Loader";
 import { guestRoutes, userRoutes } from "./routes/mainRoutes";
 import "./App.css";
@@ -47,9 +46,6 @@ function App() {
     }
   }, [tokenPresent, isAuth]);
 
-  useEffect(() => {
-    localStorage.setItem("orderList", JSON.stringify(orderData));
-  }, []);
   return (
     <Suspense fallback={<Loader />}>
       <BrowserRouter>

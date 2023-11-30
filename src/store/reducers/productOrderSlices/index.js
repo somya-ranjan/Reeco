@@ -1,8 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
+
+// // local state
+import orderData from "../../../assets/data/tableData/tableBody.json";
 import toaster from "../../../lib/toaster";
 
 const initialState = {
-  productOrderData: JSON.parse(localStorage.getItem("orderList")),
+  productOrderData: JSON.parse(localStorage.getItem("orderList")) || orderData,
 };
 
 const productOrderSlice = createSlice({
